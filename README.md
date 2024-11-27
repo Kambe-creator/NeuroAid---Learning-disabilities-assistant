@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Learning App
 The **AI Learning App** is an innovative, inclusive education platform designed for children under 15, particularly those with learning disabilities. The app empowers students through personalized learning, Scratch-like coding, and AI-driven tools while serving as a valuable resource for teachers to track progress and improve outcomes.
 
@@ -81,3 +82,6 @@ The **AI Learning App** is an innovative, inclusive education platform designed 
 ### Contact
  For inquiries or feedback, contact sharonkambe@gmail.com
 
+=======
+
+>>>>>>> 3c5bb182e353fb0cb6a5555b737b68f13e82298e
