@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Chatbot{% endblock %}
+
+{% block content %}
+<h1>Chatbot</h1>
+<input type="text" id="userMessage" placeholder="Type your message">
+<button onclick="sendMessage()">Send</button>
+<p id="chatOutput"></p>
+{% endblock %}
+
+<script>
+    async function sendMessage() {
+        const message = document.getElementById("userMessage").value;
+        const response = await fetch("/chatbot/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: `message=${encodeURIComponent(message)}`,
+        });
+        const data = await response.json();
+        document.getElementById("chatOutput").innerText = data.message;
+    }
+</script>

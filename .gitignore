@@ -1,0 +1,57 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Django-related
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+
+# Static files
+/staticfiles/
+staticfiles/
+
+# Media files (optional)
+media/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Dependency management
+*.lock
+Pipfile
+Pipfile.lock
+
+# Deployment-related files
+*.pem
+*.key
+
+# Node-related (if you're using npm/yarn for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+
+# Heroku
+*.procfile
