@@ -74,10 +74,10 @@ The **AI Learning App**  **NeuroAI** is an innovative, inclusive education platf
 ### Authors
   **Sharon Kambe** - Project Lead
   **Contributors** - 1. Sharon Kambe 
-                     2. Magdalene Mueni
-                     3. Synthia Ouma
-                     4.
-                     5.
+                     2. Lucy Kago
+                     
+                     
+         
 
 ### Contact
  For inquiries or feedback, contact sharonkambe@gmail.com
